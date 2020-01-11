@@ -3,3 +3,10 @@ version: 1.0.0
 author: Bytewave
 main: horse.code.trashcan.Trashcan
 api-version: 1.15
+commands:
+  trash:
+    description: Opens the trashcan immediately
+    usage: |
+      /trash
+    permission: trashcan.open
+    permission-message: To open the trashcan, you must right-click on a cauldron.
