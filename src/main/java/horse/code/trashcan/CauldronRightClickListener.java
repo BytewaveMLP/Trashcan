@@ -12,9 +12,7 @@ public class CauldronRightClickListener implements Listener {
 	public void onPlayerInteract(PlayerInteractEvent event) {
 		if (event.getAction() != Action.RIGHT_CLICK_BLOCK
 		    || !event.getClickedBlock().getType().equals(Material.CAULDRON)
-		    || (event.hasItem()
-				&& (event.getItem().isSimilar(new ItemStack(Material.BUCKET))
-					|| event.getItem().isSimilar(new ItemStack(Material.WATER_BUCKET)))))
+		    || event.hasItem())
 			return;
 
 		TrashcanGUI.openTrashcan(event.getPlayer());
