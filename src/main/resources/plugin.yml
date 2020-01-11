@@ -8,5 +8,5 @@ commands:
     description: Opens the trashcan immediately
     usage: |
       /trash
-    permission: trashcan.open
+    permission: trashcan.anywhere
     permission-message: To open the trashcan, you must right-click on a cauldron.
