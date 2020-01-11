@@ -1,0 +1,5 @@
+name: Trashcan
+version: 1.0.0
+author: Bytewave
+main: horse.code.trashcan.Trashcan
+api-version: 1.15
