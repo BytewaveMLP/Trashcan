@@ -8,7 +8,7 @@ Download the latest [release](https://github.com/BytewaveMLP/Trashcan/releases),
 
 ## Usage
 
-Right click on a empty cauldron with an empty hand to open the trashcan UI. As soon as the inventory is closed, all items are permanently deleted, so be careful!
+Right click on an empty cauldron with an empty hand to open the trashcan UI. As soon as the inventory is closed, all items are permanently deleted, so be careful!
 
 Server operators (or users with the `trashcan.anywhere` permission) can open the trashcan at any time by using `/trash`.
 
