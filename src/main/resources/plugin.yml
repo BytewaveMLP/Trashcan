@@ -1,5 +1,5 @@
 name: Trashcan
-version: 1.1.0
+version: 1.2.0
 author: Bytewave
 main: horse.code.trashcan.Trashcan
 api-version: 1.15
@@ -9,4 +9,4 @@ commands:
     usage: |
       /trash
     permission: trashcan.anywhere
-    permission-message: To open the trashcan, you must right-click on an empty cauldron with an empty hand.
+    permission-message: To open the trashcan, you must right-click on an empty cauldron.
